@@ -21,11 +21,11 @@ It's essential to note that self-botting goes against WhatsApp terms of service 
 pip install -r requirements.txt
 ```
 
-5. To start using the software, run the main.py file through the terminal using the following command:
+5. To start using the software, choose the appropriate run file based on your operating system:
+    * For Windows, run the file `run_windows.bat`.
+    * For Linux, run the file `run_linux.sh`.
 
-```
-python main.py
-```
+      ⚠️Attention: The Wayland protocol is not supported. Ensure that you are running on X11 if you are running Linux.⚠️
 
 ## Contributing
 Contributions are not accepted as this software was developed specifically for a client.
